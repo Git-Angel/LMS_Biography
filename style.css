@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+nav{
+    background-color: black;
+    height: 50px;
+    margin-bottom: 10px;
+    position: static !important;
+}
+
+nav img{
+  padding-left: 10px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+nav a:hover{
+    color: lightslategrey;
+}
+
+.topart{
+    display: flex;
+    gap: 50px;
+    padding-right: 30px;
+}
+
+.topart li {
+    list-style-type: none;
+}
+
+/*index*/
+
+h4{
+    text-align: center;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+span{
+    font-weight: lighter;
+}
+
+.about{
+    text-align: center; 
+    margin-bottom: 20px;
+}
+
+.bout{
+font-size: 30px;
+font-weight: bolder;
+margin: auto;
+}
+
+.why{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.whyy{
+    font-size: 30px;
+    font-weight: bolder;
+    margin: auto;
+    }
+
+.goals{
+    text-align: center;
+}
+
+.mygoal{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.goal{
+    font-size: 15px;
+    margin: 10px 10px;
+    font-weight: bold;
+}
+ .animation li p{
+    font-size: 15px;
+    font-weight: bold;
+ }
+
+ .animation li{
+   margin-bottom: 20px;
+ }
+
+ .animate{
+    animation-name: slidein;
+    animation-duration: 2s;
+}
+
+/*Keyframe*/
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+    to{
+        margin-left: 100%;
+        width: 300%;
+    }
+}
+
+footer p{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+ 
+@media (max-width: 768px){
+    .navbar{
+        flex-direction: column;
+        padding:2px 2px;
+    }
+    nav img{
+        display: none;
+    }
+    nav{
+        font-size: 15px;
+        height: 40px;
+    }
+    
+}
+
