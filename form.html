@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ALT School Application Form</title>
     <link rel="stylesheet" href="./style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
   </head>
-  <body>
+  <body style="background-color: rgb(248, 239, 228);">
     <header>
       
         <nav class="navbar">
@@ -18,14 +19,54 @@
          <li><a href="./media.html">All media styles</a></li>
           </ul>
           </nav>
-          
-      <h1>Sign Up</h1>
-      <p>Take the next steps to apply at AltSchool Africa</p>
-    </header>
+        </header>
 
-    <main>
+         <main >
+            <div class="Overall" >
+              <Section>
+
+              <div class="check">
+                <img src="./Assets/Pics/signup.png" alt="Sign up Pics">
+                <div class="checka">
+                <p>  Learn highly sought after skills without hassle.</p>
+                </div>
+                <div class="socials">
+                  <a href="https://web.facebook.com/angelina.onuoha" target="_blank" >
+                      <i class="fab fa-twitter" style="color: #1877F2;"></i>
+                  </a>
+                  <a href="https://twitter.com/AngelinaOnuoha"  target="_blank" >
+                      <i class="fab fa-instagram" style="color: #1877F2;"></i>
+                  </a>
+                  
+                  <a href="https://www.linkedin.com/in/angelina-onuoha-844268209"  target="_blank" >
+                      <i class="fab fa-facebook" style="color: #1877F2;"></i>
+                  </a>
+                  <a href="https://github.com/Git-Angel"  target="_blank" >
+                      <i class="fab fa-linkedin" style="color: #1877F2;"></i>
+                  </a>
+              </div>
+              <div class="copy">
+                <p>2025 &copy; AltSchool Africa. All rights reserved.</p>
+              </div>
+              </div> 
+            </Section>
+
+            
+
+<div class="container">
+          <div class="sign">
+      <h1>Sign Up</h1>
+      <p>Already an altscholar? <span> <a href="https://portal.altschoolafrica.com/auth/signin">sign in!</a> </span></p> 
+    </div>
+
+      <p>Take the next steps to apply at AltSchool Africa</p>
+
+    
       <section>
         <form action="">
+          <div class="name">
+
+            <div class="group">
           <label for="firstname">First Name</label>
           <input
             type="text"
@@ -33,9 +74,9 @@
             id="firstname"
             placeholder="Enter first name"
           />
-          <br />
-          <br />
-
+        </div>
+          
+      <div class="group">
           <label for="lastname">Last Name</label>
           <input
             type="text"
@@ -43,23 +84,11 @@
             id="lastname"
             placeholder="Enter last name"
           />
-          <br />
-          <br />
+        </div>
+      </div>
 
-          <label for="gender">Gender</label>
-          <select name="gender" id="gender">
-            <option value="" disabled selected hidden>Select gender</option>
-            <option value="male">Male</option>
-            <option value="female">Female</option>
-          </select>
-          <br />
-          <br />
-
-          <label for="dob">Date of Birth</label>
-          <input type="date" name="dob" id="dob" placeholder="YYYY-MM-DD" />
-          <br />
-          <br />
-
+      <div class="name">
+        <div class="group">
           <label for="email">Email Address</label>
           <input
             type="email"
@@ -67,17 +96,35 @@
             id="email"
             placeholder="Enter email address"
           />
-          <br />
-          <br />
+        </div>
+      
+        <div class="group">
+          <label for="gender">Gender</label>
+          <select name="gender" id="gender">
+            <option value="" disabled selected hidden>Select gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
+        </div>
+      </div>
 
+      <div class="name">
+        <div class="group">
+          <label for="dob">Date of Birth</label>
+          <input type="date" name="dob" id="dob" placeholder="YYYY-MM-DD" />
+        </div>
+        
+        <div class="group">
           <label for="tel">Phone Number</label>
           <input type="tel" name="tel" id="tel" placeholder="08154387000" />
-          <br />
-          <br />
+        </div>
+      </div>
 
           <!-- All countries -->
           <!-- Code and Name -->
-          <label for="country">Country</label>
+          <div class="name">
+          <div class="group">
+          <label for="country">Country Of Residence</label>
           <select id="country" name="country">
             <option value="" disabled selected hidden>
               Select your country
@@ -337,10 +384,10 @@
             <option value="ZM">Zambia</option>
             <option value="ZW">Zimbabwe</option>
           </select>
-          <br />
-          <br />
           <!-- total - 252 -->
+        </div>
 
+        <div class="group">
           <label for="state">State/City of Residence</label>
           <input
             type="text"
@@ -348,24 +395,11 @@
             id="state"
             placeholder="Enter your state of residence"
           />
-          <br />
-          <br />
+        </div>
+      </div>
 
-          <label for="how">How did you hear about us?</label>
-          <select name="how" id="how">
-            <option value="" disabled selected hidden>Select channel</option>
-            <option value="twitter">Twitter</option>
-            <option value="facebook">Facebook</option>
-            <option value="linkedin">Linkedin</option>
-            <option value="youtube">Youtube</option>
-            <option value="friend">Friend</option>
-            <option value="whatsapp">WhatsApp</option>
-            <option value="instagram">Instagram</option>
-            <option value="bill board">Bill Board</option>
-          </select>
-          <br />
-          <br />
-
+      <div class="name">
+        <div class="group">
           <label for="password">Password</label>
           <input
             type="password"
@@ -376,28 +410,53 @@ Contains upper case letters (A-Z)
 Contains lower case letters (a-z)
 Contains at least a Number
 Contains at least a special character"
-            placeholder="Enter password"
+            placeholder="Enter password 👁"
           />
-          <br />
-          <br />
+        </div>
 
+        <div class="group">
           <label for="confirmpassword">Confirm Password</label>
           <input
             type="password"
             name="confirmpassword"
             id="confirmpassword"
-            placeholder="Enter password again"
+            placeholder="Confirm password 👁"
           />
-          <br />
-          <br />
-          <p>
-            By clicking continue, I agree to Terms of Use and acknowledge <br />
-            that I have read the Privacy Policy.
-          </p>
-          <button type="button">Submit</button>
+        </div>
+        </div>
+
+        
+         <!-- <label for="how">How did you hear about us?</label>
+          <select name="how" id="how">
+            <option value="" disabled selected hidden>Optional; let us know how you found us</option>
+            <option value="twitter">Twitter</option>
+            <option value="facebook">Facebook</option>
+            <option value="linkedin">Linkedin</option>
+            <option value="youtube">Youtube</option>
+            <option value="friend">Friend</option>
+            <option value="whatsapp">WhatsApp</option>
+            <option value="instagram">Instagram</option>
+            <option value="bill board">Bill Board</option>
+          </select> -->
+
+          <label for="HearaboutUs">How did you hear about us?</label>
+          <input type="text" name="HearaboutUs" id="HearaboutUs" placeholder="Optional; let us know how you found us">
+
+          <div class="terms">
+            By clicking continue, I agree to <span><a href="https://portal.altschoolafrica.com">Terms of Use </a> </span> and acknowledge 
+            that I have read the <span> <a href="https://portal.altschoolafrica.com">Privacy Policy</a> </span>.
+          </div>
+
+          <button type="button">Submit ⇾ </button>
+        </div>
+
         </form>
       </section>
-    </main>
+      </div>
+     
+  
+
+</main>
     <br />
     <hr />
     <footer>

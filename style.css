@@ -208,6 +208,164 @@ border-radius: 20px;
 }
 .div3{
    flex-wrap: wrap;
-    
 }
+}
+
+/*form 1st section*/
+
+.overall{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.checka{
+    height: 200px;
+    width: 450px;
+     text-align: center;
+     margin-left: 120px;
+}
+
+.check{
+    height: 780px;
+    width: 780px;
+   text-align: center;
+}
+
+.checka p{
+    font-size: 40px; 
+    font-weight: bolder;
+   margin-left: 80px;
+   margin-top: 30px;
+}
+
+.socials {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    height: 10px;
+    width: 50px;
+    margin-left: 350px;
+    margin-bottom: 20px;
+  }
+
+  .socials a {
+    text-decoration: none;
+  }
+
+  .copy{
+    font-weight: bolder;
+    margin-bottom: 15px;
+  }
+
+  @media (max-width: 768px){
+    .check{align-items: start; 
+        justify-content: left;
+    }
+    .checka{
+        margin-left: 0;
+    }
+    .socials{
+        margin-left: 200px;
+    }
+   .copy{
+    margin-left: 0;
+   }
+    }
+
+  
+/*form 2nd section*/
+.sign{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5px;
+}
+
+.sign h1{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.sign p a{
+    text-decoration: none;
+}
+
+.container{
+    width: 680px;
+    height: 700px;
+    background-color: white;
+    padding: 20px 20px;
+}
+
+form{
+    background-color: white;
+    padding-top: 30px;
+}
+
+.name{
+    display: flex;
+    gap: 10px;
+    padding-bottom: 20px;
+}
+
+.group{
+    flex: 1;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+   
+}
+
+input, select, button{
+    width: 100%;
+    padding: 8px;
+}
+
+input:hover, select:hover{
+    border-color: blue;
+}
+
+.terms{
+    margin-top: 25px;
+    color: gray;
+}
+
+.terms a{
+    color:blue;
+    text-decoration: none;
+}
+
+button{
+    margin-top: 25px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover{
+   background-color: rgb(53, 53, 234);
+}
+
+@media (max-width: 768px){
+    .name{
+      flex-wrap: wrap;
+      width: 450px;
+    } 
+    
+    button {
+        width: 450px;
+    } 
+    #HearaboutUs{
+        width: 450px;
+    }  
+    .terms{
+        width: 450px;
+    }
+    .sign {
+      flex-wrap: wrap; 
+    }
 }
