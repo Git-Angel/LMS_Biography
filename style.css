@@ -284,8 +284,9 @@ border-radius: 20px;
       width: 100px;
       height: 500px;
     }
-       .check img{
-        margin-left: 4rem;
+
+        .check img{ 
+        margin-left: 15rem;
         height: 300px;
         width: 450px;
        }
@@ -294,26 +295,57 @@ border-radius: 20px;
         margin-top: 10px;
        }
        .checka{
-        margin-left: 1rem;
+        margin-left: 12rem;
         height: 90px;
         
        }
        .socials{
-        margin-top: 0px;
-        margin-bottom: 0px;
-        margin-left: 250px;
+        margin-left: 425px;
         gap: 5x;
     }
     .copy{
-        margin-left: 80px;
+        margin-left: 250px;
         margin-bottom: 5px;
         width: 400px;
         height: 50px;
         margin-top: 20px;
-       
+    }
+    .copy p{
+     font-size: 15px;
+    }
+ }
+
+  @media (max-width: 425px){
+    
+    .Overall{
+        flex-direction: column;
+        width: 5px;
+    }
+    .check{
+      width: 50px;
+      height: 480px;
+    }
+       .check img{
+         margin-left: 2rem; 
+        height: 300px;
+        width: 450px;
        }
-       .copy p{
-        font-size: 15px;
+       .checka p{
+        font-size: 25px;
+        margin-top: 10px;
+       }
+       .checka{
+        margin-left: 5px; 
+        height: 90px;
+        
+       }
+       .socials{
+         margin-left: 250px;
+        gap: 5x;
+    }
+    .copy{
+        margin-left: 45px; 
+       
        }
     }
 
@@ -394,9 +426,20 @@ button:hover{
 
 @media (max-width: 768px){
     .container{
-         width: 30rem;
-         margin-left: 30rem;
+        width: 45rem;
+        margin-left: 48rem;
+   } 
+}
+
+@media (max-width: 425px){
+     .container{ 
+          width: 28rem; 
+          margin-left: 29rem; 
     }  
+    .sign h1{
+        font-size:30px;
+    }
+}
     /* .name{ 
       flex-direction: column;
       gap: 5;
@@ -405,4 +448,3 @@ button:hover{
    
 
    
-}
